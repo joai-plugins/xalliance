@@ -1,0 +1,38 @@
+{
+  "name": "joai-xalliance",
+  "version": "0.3.0",
+  "description": "Connect xAlliance to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/xalliance",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "xalliance"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "xAlliance by JoAi",
+    "shortDescription": "Connect xAlliance to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Community accelerator",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/xalliance",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the xAlliance tools available in this app.",
+      "Explain what setup or authentication xAlliance needs before I run an action.",
+      "Use xAlliance to help me with the task I describe next."
+    ]
+  }
+}
